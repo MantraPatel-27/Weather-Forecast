@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0; 
+    text-align: center; 
+}
+body{
+    background-color: black;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.mainh1{
+    font-size: 50px;
+    display: inline;
+    color: #C68EFD;
+}
+main{
+    
+    border: 2px solid black;
+    height: auto;
+    width: 600px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #C68EFD;
+}
+.search{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+   
+   
+   
+ 
+}
+#s1{
+    font-size: 30px;
+    border-right: none;
+    outline: none;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+   
+
+
+
+}
+.citydata{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.deg{
+    font-size: 30px;
+}
+.city{
+    font-size: 50px;
+}
+#icon{
+    font-size: 35px;
+    border-left:none;
+    background-color: white;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.data{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: none;
+    
+    
+}
+.humwin{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.windspeed{
+    margin-left: 50px;
+
+}
+.wind{
+    font-size: 26px;
+}
+i{
+    margin-right: 10px;
+}
+.dis{
+    display: none;
+}
